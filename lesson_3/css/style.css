@@ -1,0 +1,33 @@
+@import url("reset.css");
+/* reset */
+
+h1 {
+    color: rgb(0, 153, 255);
+}
+.class-selector {
+    color: green;
+}
+
+#top-link {
+    color: red;
+}
+
+div.middle-text{
+    color: #356985;
+}
+
+div > .gold-text {
+    color: gold;
+}
+
+.list-ul,
+.important-text {
+    color:darkviolet;
+} 
+
+.list-ol * {
+    color: rgb(0, 217, 255);
+}
+.list .blue-li{
+    color: blue;
+}
