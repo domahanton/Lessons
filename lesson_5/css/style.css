@@ -1,0 +1,65 @@
+@import url("reset.css");
+/* reset */
+
+@import url("fonts.css");
+/* fonts */
+
+body {
+    width: 1440px;
+    font-family: "Popis", sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+}
+p{
+    font-size: 14px;
+    line-height: 179%;
+    color: #6C757D;
+    margin-bottom: 40px;
+}
+ul {
+    font-size: 12px; 
+    margin: 15px 0;  
+}
+.name {
+    font-weight: 700;
+}
+
+h2 {
+   
+    max-width: 605px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+main,
+.middle-content,
+.bottom-content {
+    margin: 0 auto;
+    max-width: 816px ;
+}
+
+.date li{
+    display: inline-block;
+    font-size: 12px;
+    color: #6C757D;
+   
+}
+.date img {
+    vertical-align: middle;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #212529;
+}
+.img-box,
+.middle-img {
+    margin: 80px auto;
+    max-width: 1240px;
+}
+ .mar-img{
+  padding-right: 26px;
+}  
