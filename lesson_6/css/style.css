@@ -1,0 +1,135 @@
+@import url("fonts.css");
+/* fonts */
+@import url("reset.css");
+/* reset */
+
+
+body {
+
+    font-family: "Popis", sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+}
+p{
+    font-size: 14px;
+    line-height: 179%;
+    color: #6C757D;
+    margin-bottom: 40px;
+}
+ul {
+    font-size: 12px; 
+    margin: 15px 0;  
+}
+.name {
+    font-weight: 700;
+}
+
+h2 {  
+    max-width: 605px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.text-content {
+    margin: 0 auto;
+    max-width: 816px ;
+}
+
+.date li{
+    display: inline-block;
+    font-size: 12px;
+    color: #6C757D;
+   
+}
+.date img {
+    vertical-align: middle;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #212529;
+}
+.img-box {
+    border-radius: 5px;
+    margin: 80px auto;
+    max-width: 1240px;
+}
+ .mar-img{
+  padding-right: 26px;
+}  
+
+.head-img {
+    margin-bottom: 100px;
+}
+
+.header-image{
+   width: 100%;
+    
+}
+.last-p {
+    margin-bottom: 100px;
+}
+
+.h-many {
+    margin-bottom: 100px;
+}
+.container-img {
+    width: 1240px;
+    margin: 0 auto;
+}
+.box-jpg {
+    font-size: 0;
+    margin-bottom: 100px;
+}
+.images-left{
+    margin-right: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    max-width: 20%;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+h3:hover {
+    outline: 6px solid greenyellow;
+}
+
+.test {
+    max-width: 23%;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid darkorange;
+}
+
+.test div{
+    vertical-align:middle;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 20%;
+    background-color: burlywood;
+    border-radius: 50%; 
+} 
+
+.textes {
+    margin: 0;
+    padding: 10px;
+}
+
+.first:hover {
+    box-shadow: 3px 3px 5px  steelblue;
+    opacity: 0.5;
+}
+.second:active {
+    visibility: hidden;
+}
+.third:active {
+    display: none;
+}
