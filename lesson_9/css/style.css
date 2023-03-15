@@ -1,0 +1,55 @@
+@import url("fonts.css");
+/* fonts */
+@import url("reset.css");
+/* reset */
+
+.conteiner{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h2 {
+    max-width: 50%;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    text-transform: uppercase;
+    
+}
+p {
+    font-size: 25px;
+    text-indent: 25px;
+}
+
+.icon-text{
+    margin-bottom: 30px;
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+
+.icon img {
+    display: inline-block;
+    background-color: rgb(187, 0, 255);
+    padding: 20px;
+    border-radius: 10%;
+}
+.bg-text {
+    margin-bottom: 30px;
+}
+.bg {
+    padding: 100px;
+    width: 1200px;
+    height: 150px;
+    margin-bottom: 30px;
+    background: url("../img/background/DottedShape.jpg") 0 0 no-repeat, url("../img/background/linebluegreen.jpg") 20% no-repeat, url("../img/background/Ellipse3.jpg") 40% no-repeat, url("../img/background/Oval.jpg") 55% no-repeat, url("../img/background/OvalBlue.jpg") 70% no-repeat, url("../img/background/twooval.jpg") 80% no-repeat;
+}
+
+.img-content-text{
+    margin-bottom: 30px;
+}
+.img-content {
+    padding-bottom: 30px;
+}
