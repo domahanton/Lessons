@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Lesson_12</title>
+   </head>
+ <body>
+
+
+    <div class="container">
+   <div class="drawing">
+      <div class="sky">
+         <div class="sky__left"></div>
+         <div class="sky__middle"></div>
+         <div class="sky__right"></div>
+      </div>
+      <div class="sky sky__posotions">
+         <div class="sky__left"></div>
+         <div class="sky__middle"></div>
+         <div class="sky__right"></div>
+      </div>
+      
+      <div class="car drawing__car">
+         <div class="car__top">
+            <div class="car__window-back"></div>
+            <div class="car__window-front"></div>
+         </div>
+         <div class="car__middle">
+            <div class="car__back-light"></div>
+            <div class="car__body"></div>
+            <div class="car__front-light"></div>
+         </div>
+         <div class="car__down">
+            <div class="car__wheel">
+               <div class="car__segment"></div>
+               <div class="car__segment car__segment--right"></div>
+               <div class="car__segment car__segment--bottom"></div>
+               <div class="car__segment car__segment--left"></div>
+               <div class="car__center"></div>
+            </div>
+            <div class="car__wheel front-wheel">
+               <div class="car__segment"></div>
+               <div class="car__segment car__segment--right"></div>
+               <div class="car__segment car__segment--bottom"></div>
+               <div class="car__segment car__segment--left"></div>
+               <div class="car__center"></div>
+            </div>
+         </div>
+      </div>
+      <div class="road">
+         <div class="road__body">
+         </div>
+      </div>
+
+
+<!-- 
+ -->
+ <div class="traffic-lights traffic-lights--positions">
+   <div class="traffic-lights__top">
+      <div class="traffic-lights__color traffic-lights__color--red"></div>
+      <div class="traffic-lights__color traffic-lights__color--yellow"></div>
+      <div class="traffic-lights__color traffic-lights__color--green"></div>
+   </div>
+   <div class="traffic-lights__middle"></div>
+ </div>
+</div>
+</div>
+   <!--  -->
+   <div class="home-work">
+      <div class="home-work__container">
+         <h2 class="home-work__title">transition-duration: 0.5s;</h2>
+         <h5 class="home-work__subtitle">Визначає проміжок часу, 
+            протягом якого має здійснюватись перехід. 
+            Власне - тут ми вказуємо час за яке 
+            одне значення властивості переходить (анімується)
+            в інше. Властивість не успадковується.</h5>
+         <div class="home-work__content">
+            <div class="home-work__block home-work__block--duration">
+               BLOCK
+            </div>
+         </div>
+      </div>
+
+      <div class="home-work__container">
+         <h2 class="home-work__title">transition-property: font-size;
+            </h2>
+            <h5 class="home-work__subtitle">Містить назву CSS-властивостей,
+               до яких буде використано ефект переходу. 
+               Значення властивості може містити як одну 
+               властивість, так і список властивостей 
+               через кому. Властивість не успадковується.</h5>
+         <div class="home-work__content">
+            <div class="home-work__block home-work__block--property"><span>BLOCK</span></div>
+         </div>
+      </div>
+
+      <div class="home-work__container">
+         <h2 class="home-work__title">transition-delay 0.5s;
+            </h2>
+            <h5 class="home-work__subtitle">Затримка виконання переходу. Дозволяє зробити 
+               так, щоб зміна якості відбувалася не миттєво,
+               а з деякою затримкою. Час затримки переходу 
+               вказується у секундах або мілісекундах. 
+               Властивість не успадковується.</h5>
+         <div class="home-work__content">
+            <div class="home-work__block home-work__block--delay"><span>BLOCK</span></div>
+         </div>
+      </div>
+
+      <div class="home-work__container">
+         <h2 class="home-work__title">transition-timing-function: cubic-bezier(.09,1.74,1,-1.02);
+            </h2>
+            <h5 class="home-work__subtitle">Задає стиль нашого переходу,
+               тобто якийсь сценарій,
+               за яким здійсняться анімація..</h5>
+         <div class="home-work__content">
+            <div class="home-work__block home-work__block--timing"><span>BLOCK</span></div>
+         </div>
+      </div>
+
+
+      <div class="home-work__container">
+         <h2 class="home-work__title">Універсальний запис
+            transition: all 2s cubic-bezier(1,-0.04,1,-0.12) 0.5s;
+            </h2>
+            <h5 class="home-work__subtitle">Порядок запису значень через пробіл:
+               transition-property
+               transition-duration
+               transition-timing-function
+               transition-delay</h5>
+         <div class="home-work__content home-work__content--last">
+            <div class="home-work__block home-work__block--mix"><span>BLOCK</span></div>
+         </div>
+      </div>
+
+   </div>
+ </body>
+</html>
